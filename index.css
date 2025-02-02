@@ -1,0 +1,87 @@
+
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+    font-family: "Lexend Deca", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.flex-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 12px;
+    margin: 2rem;
+    overflow: hidden;
+
+}
+
+.box1 {
+    background: hsl(31, 77%, 52%);
+    height: 350px;
+}
+
+.box2 {
+    background: hsl(184, 100%, 22%);
+    height: 350px;
+}
+
+.box3 {
+    background: hsl(179, 100%, 13%);
+    height: 350px;
+}
+
+.box {
+    padding: 40px;
+}
+
+.box h1{
+    font-family: "Big Shoulders Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+    text-transform: uppercase;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 10px;
+}
+
+button a {
+    text-decoration: none;
+}
+
+button{
+    border-radius: 25px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    margin-top: 60px;
+}
+
+.box1 a {
+    color: hsl(31, 77%, 52%);
+}
+
+.box2 a {
+    color: hsl(184, 100%, 22%);
+}
+
+.box3 a {
+    color: hsl(179, 100%, 13%);
+}
